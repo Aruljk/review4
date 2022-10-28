@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    //one//
+let input=342;
+let value=0;
+while(input!=0){
+    let rem=input%10;
+    input=(input-rem)/10
+    value=(value*10)+rem
+}
+console.log(value);
+// two//
+
+let input1=342;
+let value1=0;
+while(input1!=0){
+    let rem1=input1%10;
+    input1=(input1-rem1)/10
+    value1=value1+rem1
+}
+console.log(value1);
+
+
+// three//
+let input3=2569;
+
+while(input3!=0){
+    let rem3=input3%10;
+
+    if(rem3==1){
+        console.log("one")
+    }
+        else if(rem3==2){
+        console.log("two")
+    }
+    else if(rem3==3){
+        console.log("three")
+    }
+    else if(rem3==4){
+        console.log("four")
+    }
+    else if(rem3==5){
+        console.log("five")
+    }
+    else if(rem3==6){
+        console.log("six")
+    }
+    else if(rem3==7){
+        console.log("seven")
+    }
+    else if(rem3==8){
+        console.log("eight")
+    }
+    else if(rem3==9){
+        console.log("nine")
+    }
+    else{
+        console.log("zero")
+    }
+input3=(input3-rem3)/10;
+
+}
+
+// four//
+
+
+
+
+   </script> 
+</body>
+</html>
